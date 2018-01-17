@@ -45,7 +45,7 @@ export default {
 }
 .apartment {
     width:60%;
-    background: url(https://m.sherpa.com.cn/images/top-position.png) .6rem center no-reepat;
+    background: url(https://xxx/images/top-position.png) .6rem center no-reepat;
     background-size: 1rem 1.2rem;
     background-color: rgba(0,0,0,.5);
     color: #fff;
