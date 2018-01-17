@@ -5,10 +5,13 @@ import App from './App'
 import router from './router'
 import config from './config'
 import vajax from './vajax'
+import './common/less/index.css' 
 
 Vue.config.productionTip = false
 Vue.prototype.CONFIG = config
 Vue.prototype.vajax = vajax
+
+
 
 /* eslint-disable no-new */
 new Vue({

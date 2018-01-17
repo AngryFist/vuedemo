@@ -1,6 +1,6 @@
 <template lang="html">
     <div class="topNav">
-        <div class="apartment">{{location[i]}}</div>
+        <div class="apartment">{{location[i]}}<s></s></div>
         <div class="searchNav">
             {{search[i]}}
         </div>
@@ -39,5 +39,18 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style lang="less" scoped>
+.topNav {
+    display: flex;
+}
+.apartment {
+    width:60%;
+    background: url(https://m.sherpa.com.cn/images/top-position.png) .6rem center no-reepat;
+    background-size: 1rem 1.2rem;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+}
+.searchNav {
+    width: 40%;
+}
 </style>

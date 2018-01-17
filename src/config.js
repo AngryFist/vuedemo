@@ -6,7 +6,7 @@ let UrlQuery = function(name){
 };
 
 export default {
-    baseUrl : "//ordersite3-test.sherpa.com.cn/sherpa-web-api/",
+    baseUrl : "",
     lang: function(){
         return UrlQuery('language') || localStorage.lang || 'en'
     },
